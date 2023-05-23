@@ -1,9 +1,4 @@
-import { SyntheticEvent, useState } from "react";
-import { PersonalData } from "../models/personal.data";
-
 export function PersonaData() {
-  const [formState, setFormState] = useState<PersonalData>();
-
   return (
     <>
       <form>
